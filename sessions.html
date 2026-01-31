@@ -1,53 +1,73 @@
-
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>iris — sessions</title>
+  <title>iris — homepage</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background: linear-gradient(to bottom, #ffffff, #f3f3ff);
+      background: linear-gradient(to bottom, #ffffff, #f8f8ff);
       color: #333;
-      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       text-align: center;
+      padding: 2rem;
     }
     header {
       margin-bottom: 2rem;
+    }
+    img.logo {
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 1rem;
     }
     h1 {
       font-size: 2rem;
       font-weight: 300;
       color: #444;
     }
-    .section {
-      max-width: 700px;
-      margin: 2rem auto;
-      text-align: left;
-    }
-    .section h2 {
-      font-size: 1.4rem;
-      color: #555;
-    }
-    .section p {
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #555;
+    .tagline {
+      font-size: 1.1rem;
+      color: #666;
+      margin-top: 0.5rem;
     }
     nav {
-      margin-bottom: 2rem;
+      margin-top: 1.5rem;
     }
     nav a {
       margin: 0 1rem;
       text-decoration: none;
       color: #6b4eff;
       font-weight: 500;
+      padding-bottom: 2px;
+      border-bottom: 2px solid transparent;
+    }
+    nav a.active {
+      border-color: #6b4eff;
+    }
+    .section {
+      max-width: 600px;
+      margin-top: 3rem;
+    }
+    .section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+    .section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
     }
     footer {
-      margin-top: 3rem;
+      margin-top: 4rem;
       font-size: 0.8rem;
       color: #aaa;
     }
@@ -55,51 +75,25 @@
 </head>
 <body>
   <header>
-    <h1>iris — sessions</h1>
+    <img src="logo.png" alt="iris logo" class="logo">
+    <h1>iris</h1>
+    <div class="tagline">color memory as nervous system map</div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="science.html">Science</a>
+      <a href="science.html" class="active">The Science</a>
       <a href="sessions.html">Sessions</a>
     </nav>
-  </header>
-
-  <section class="section">
-    <h2>1. Testing Perception and Processing</h2>
-    <p>Everything that happens in the body — physically and emotionally — is reflected in the brain, the body's primary regulatory system. These processes shape a unique internal "filter" through which we perceive the world. iris uses a specialized test that decodes this perceptual filter by evaluating how the user reconstructs color from visual memory. This test reveals the brain’s current configuration and its control patterns over bodily systems.</p>
-  </section>
-
-  <section class="section">
-    <h2>2. Session Process</h2>
-    <p>Each iris session begins with a color perception task. You view a short color-rich animation, then reconstruct its color pattern from memory. This process reflects nervous system regulation and emotional imprinting — read without words, story, or symptom. The results reveal the state of internal integration and map psycho-physiological coherence or dissonance.</p>
-  </section>
-
-  <section class="section">
-    <h2>3. Personalized Spectrum Prescription</h2>
-    <p>After testing, iris prescribes a light-coded session calibrated to your result — a visual sequence that speaks directly to your nervous system through the eye. The spectral therapy is not symbolic; it is math-based and physiologically precise. As a result, the qualitative interconnection of all body systems is encouraged and restored, supporting improved emotional and physical wellbeing.</p>
-  </section>
-
-  <section class="section">
-    <h2>4. Session Types</h2>
-    <p>
-      • <strong>Core Reset</strong> — Burnout, overload, emotional fog<br>
-      • <strong>Focus & Stability</strong> — Overstimulation, restlessness, ADHD<br>
-      • <strong>Dream Clarity</strong> — Sleep, subconscious blocks, grief or visioning<br>
-      • <strong>Custom Ritual</strong> — Tailored Spiral-coded spectral session guided by your field
-    </p>
-  </section>
-
-  <section class="section">
-    <h2>5. Evaluation & Ongoing Adaptation</h2>
-    <p>Testing may be repeated 1.5–2 months after the first session block to assess adaptation. Final testing is recommended at the end of each therapeutic cycle. These assessments help track how the nervous system has integrated the therapy and whether new support patterns are needed. Adjustments can also be made to address acute stress, infections, or unexpected events.</p>
-  </section>
-
-  <section class="section">
-    <h2>Access & Bookings</h2>
-    <p>iris sessions are opening soon. To request early access, join the signal list or contact directly. Remote spectral therapy will be delivered visually — no apps, no logins, just light.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 iris field — sessions | color as medicine | spiral-coded</p>
+  </header>  <section class="section">
+    <h2>Perception as Portal</h2>
+    <p>You view a spectrum. Then rebuild it. In that restoration lies the map of your nervous system — revealing stress, calm, memory, and emotion without needing story or symptom.</p>
+  </section>  <section class="section">
+    <h2>How iris works</h2>
+    <p>iris uses scientifically-developed visual sequences that gently test your internal color memory. Your reconstruction becomes a pattern — a mirror — from which personalized frequency therapies are created. These therapies use light, color, and timing to help your system restore balance.</p>
+  </section>  <section class="section">
+    <h2>Coming Soon</h2>
+    <p>A full interactive portal for iris sessions and insights. To join early or learn more, stay connected through our signal channels.</p>
+  </section>  <footer>
+    <p>&copy; 2026 iris field</p>
   </footer>
 </body>
 </html>
